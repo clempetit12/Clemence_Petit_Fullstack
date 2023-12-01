@@ -1,7 +1,7 @@
 # Clemence_Petit_Fullstack
 
-# Bienvenue sur mon gitHub
-Bienvenue sur mon GitHub ! Je m'appelle Clémence Petit, une ancienne ingénieure textile passionnée par le monde captivant de l'informatique. J'aime créer et développer de nouveaux projets. Découvrez ci-dessous certains de ces projets !
+# Bienvenue sur mon gitHub !
+Bienvenue  ! Je m'appelle Clémence Petit, une ancienne ingénieure textile passionnée par le monde captivant de l'informatique. J'aime créer et développer de nouveaux projets. Découvrez ci-dessous certains de ces projets !
 
 ## À Propos de Moi
 
