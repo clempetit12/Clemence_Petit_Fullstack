@@ -1,11 +1,7 @@
 # Clemence_Petit_Fullstack
 
 # Bienvenue sur mon gitHub !
-Bienvenue  ! Je m'appelle Clémence Petit, une ancienne ingénieure textile passionnée par le monde captivant de l'informatique. J'aime créer et développer de nouveaux projets. Découvrez ci-dessous certains de ces projets !
-
-## À Propos de Moi
-
-Je suis une développeuse Fullstack qui a récemment fait le saut depuis le domaine de l'ingénierie textile. Ma passion pour la création et l'apprentissage continu me motive à explorer de nouvelles technologies et à relever des défis informatiques.
+Salut, je suis Clémence Petit, une ancienne ingénieure textile passionnée par le monde de l'informatique. J'ai récemment fait le choix de devenir développeuse fullstack, cherchant à allier créativité et technologie pour concevoir des projets innovants.
 
 ## Mes langages de prédilection
 ![HTML](https://img.shields.io/badge/-HTML-orange?logo=html5&logoColor=white)
