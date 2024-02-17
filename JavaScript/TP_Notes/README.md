@@ -1,6 +1,6 @@
 # Gestion Notes
 
-# Bienvenue sur mon gitHub !
+# Fonctionnalités
 Système de gestion de notes. les différentes fonctionnalités sont les suivantes :
 - ajouter un ou plusieurs élèves
 - ajouter une ou plusieurs matières
