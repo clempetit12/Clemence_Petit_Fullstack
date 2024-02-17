@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Student List</title>
+    <span th:replace="~{home :: bootstrapImports}"></span>
+
+</head>
+<body>
+<header>
+    <span th:replace="~{home :: navBar}"></span>
+</header>
+
+<div class="container col-8 justify-content-center ">
+    <h2 class="text-center mt-4  mb-4">Students</h2>
+    <hr>
+
+    <table class="table table-hover">
+        <thead>
+        <tr>
+            <th class="text-center" scope="col">#</th>
+            <th class="text-center" scope="col">FirstName</th>
+            <th class="text-center" scope="col">LastName</th>
+            <th class="text-center" scope="col">Détail</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="student, studentStat : ${students}">
+            <td class="text-center" th:text="${studentStat.index + 1}"></td>
+            <td class="text-center" th:text="${student.firstName}"></td>
+            <td class="text-center" th:text="${student.lastName}"></td>
+
+            <td class="text-center align-middle">
+                <a class="text-decoration-none d-inline-block align-middle btn btn-outline-info" type="button" th:href="@{/detail/{studentId}(studentId=${student.id})}">
+                    <span class="align-middle">Détail</span> <i class="bi bi-eye align-middle text-info"></i>
+                </a>
+            </td>
+
+        </tr>
+        </tbody>
+    </table>
+
+    <div th:if="${students.isEmpty()}">
+        <p>Aucun étudiant trouvé.</p>
+    </div>
+</div>
+
+</body>
+</html>

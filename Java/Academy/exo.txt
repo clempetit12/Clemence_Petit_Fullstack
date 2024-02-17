@@ -1,0 +1,37 @@
+Application Web 
+
+Etudiants 
+Id,
+FirstName,
+LastName,
+age,
+email,
+image
+
+
+Service pour les étudiants (fausse base de donnée)
+Couplage faible (interface)
+
+
+Home Page 
+Navbar 
+- Inscription d'un étudiant 
+- Voir tous les étudiants (liste avec bouton pour détail d'un étudiant)
+Champ recherche (à faire en dernier) par rapport à son nom renvoie vers une page qui liste les étudiants ou exploiter le listing  avec le bouton détail isinon renvoie vers une page aucun resultat
+
+
+Page Inscription 
+Formulaire après ajout redirect vers tous les étudiants 
+Bouton annuler pour revenir sur la page d'accueil 
+
+
+Page Listing Etudiants 
+Card avec Nom et prénom étudiants
+Sous forme de tableau avec bouton voir détail (oeil icon)
+
+Page détail étudiant 
+card , toutes les informations de l'étudiant 
+lien pour revenir directement vers la page accueil 
+
+
+

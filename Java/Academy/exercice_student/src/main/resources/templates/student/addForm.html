@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Student List</title>
+    <span th:replace="~{home :: bootstrapImports}"></span>
+
+</head>
+<body>
+<header>
+    <span th:replace="~{home :: navBar}"></span>
+</header>
+
+<div class="container p-5">
+    <div class="row justify-content-center">
+        <div class="col-6 jus">
+            <h1 class="text-center mb-4">Formulaire inscription</h1>
+            <hr>
+            <form th:action="@{/add}" th:object="${student}" method="post">
+                <div class="mb-3">
+                    <label for="firstName" class="form-label"></label>
+                    <input type="text" class="form-control" id="firstName" placeholder="firstName"
+                           aria-describedby="firstName" th:field="*{firstName}">
+                    <span th:if="${#fields.hasErrors('firstName')}" th:errors="*{firstName}"></span>
+                </div>
+                <div class="mb-3">
+                    <label for="lastName" class="form-label"></label>
+                    <input type="text" class="form-control" id="lastName" placeholder="LastName"
+                           aria-describedby="lastName" th:field="*{lastName}">
+                    <span th:if="${#fields.hasErrors('lastName')}" th:errors="*{lastName}"></span>
+                </div>
+                <div class="mb-3">
+                    <label for="age" class="form-label"></label>
+                    <input type="number" class="form-control" id="age" placeholder="Age" aria-describedby="age"
+                           th:field="*{age}">
+                    <span th:if="${#fields.hasErrors('age')}" th:errors="*{age}"></span>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label"></label>
+                    <input type="text" class="form-control" id="email" placeholder="Email" aria-describedby="email"
+                           th:field="*{email}">
+                    <span th:if="${#fields.hasErrors('email')}" th:errors="*{email}"></span>
+                </div>
+
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <button class="btn btn-primary me-md-2" type="submit"><i class="bi bi-patch-plus"> Submit</i>
+                    </button>
+                </div>
+                <input type="hidden" th:field="*{id}">
+
+            </form>
+        </div>
+
+    </div>
+
+</div>
+
+
+</body>
+</html>
