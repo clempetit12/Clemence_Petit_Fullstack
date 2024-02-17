@@ -16,7 +16,7 @@ Salut, je suis Clémence Petit, une ancienne ingénieure textile passionnée par
 ## Projets Principaux
 
 - ![Java](https://img.shields.io/badge/-Java-orange?logo=java&logoColor=white) ![Spring](https://img.shields.io/badge/-Spring-brightgreen?logo=spring&logoColor=white)
-  - [Academy] (https://github.com/clempetit12/Clemence_Petit_Fullstack/tree/main/Java/Academy) - Page web pour gérer les étudiants d'une académie.
+  - [Academy](https://github.com/clempetit12/Clemence_Petit_Fullstack/tree/main/Java/Academy) - Page web pour gérer les étudiants d'une académie.
 
 - ![React](https://img.shields.io/badge/-React-blue?logo=react&logoColor=white) et ![Redux](https://img.shields.io/badge/-Redux-purple?logo=redux&logoColor=white)
   - [Album](https://github.com/clempetit12/Clemence_Petit_Fullstack/tree/main/Redux/Album) - Ajout, modification, suppression d'albums, attribution de scores, et filtrage par titre ou score. 
