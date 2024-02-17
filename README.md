@@ -26,7 +26,7 @@ Salut, je suis Clémence Petit, une ancienne ingénieure textile passionnée par
   - [Gestion Notes](https://github.com/clempetit12/Clemence_Petit_Fullstack/tree/main/JavaScript/TP_Notes) - Page web qui permet d'ajouter un ou plusieurs étudiants, plusieurs matières et d'ajouter pour chaque élève une ou plusieurs notes associées à une matière. L'ensemble des notes s'affichent dans un tableau avec possibilité de filter par matière et par élève. Le calcul de la moyenne se fait en fonction du filtre.
  
 - ![Java](https://img.shields.io/badge/-Java-orange?logo=java&logoColor=white) ![Spring](https://img.shields.io/badge/-Spring-brightgreen?logo=spring&logoColor=white)
-  - [Academy] (https://github.com/clempetit12/Clemence_Petit_Fullstack/tree/main/Java/Academy) - Page web pour gérer les étudiants d'une académie.(![Java](https://img.shields.io/badge/-Java-orange?logo=java&logoColor=white) ![Spring](https://img.shields.io/badge/-Spring-brightgreen?logo=spring&logoColor=white))
+  - [Academy] (https://github.com/clempetit12/Clemence_Petit_Fullstack/tree/main/Java/Academy) - Page web pour gérer les étudiants d'une académie.
 
 
 
