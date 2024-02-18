@@ -19,10 +19,11 @@ export default function Pokedex({ navigation }) {
     }, [dispatch])
 
     return (
-        <SafeAreaView >
+        <SafeAreaView    >
 
             <FlatList
                 data={pokemons}
+                contentContainerStyle={styles.container}
                 initialNumToRender={5}
                 windowSize={10}
                 extraData={pokemons}
@@ -47,16 +48,18 @@ export default function Pokedex({ navigation }) {
 }
 
 const styles = StyleSheet.create({
-    card: {
-        flex: 1,
-        backgroundColor: 'blue',
-        margin: 10,
+containerList: {
+    padding:10
+},
+    
+    container: {
         justifyContent: 'center',
         alignItems: 'center',
-        width: 170,
-        height: 170,
-        borderRadius: 10,
+        padding:4
+        
+        
     },
+
     column: {
         flexDirection: 'column',
     },

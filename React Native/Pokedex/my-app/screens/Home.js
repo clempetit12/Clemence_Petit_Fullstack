@@ -21,7 +21,7 @@ function pokedex () {
             <Text style={styles.text}>Pokemons</Text>
           </View>
         </TouchableOpacity>
-        <TouchableOpacity onPress={() => pokedex()}>
+        <TouchableOpacity onPress={() => pokedex()} style={{ marginLeft: 10 }}>
           <View style={[styles.card, { backgroundColor: "#ffcc00" }]}>
             <Text style={styles.text}>Pokedex</Text>
           </View>
@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
     marginBottom: 20
   },
   card: {
-    width: 160,
+    width: 120,
     height: 50,
     margin: 10,
     backgroundColor: 'white',
@@ -63,8 +63,8 @@ const styles = StyleSheet.create({
   },
   row: {
     flexDirection: 'row',
-    justifyContent: 'space-between',
-    width: "100%"
+    justifyContent: 'center',
+    alignItems: 'center'
   },
   image: {
 width: 300,

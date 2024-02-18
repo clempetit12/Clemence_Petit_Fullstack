@@ -10,7 +10,7 @@ export default function DetailsComponent({ selectedPokemon }) {
         <SafeAreaView>
             <View style={styles.bigContainer} >
                 <Text style={styles.title}>Details</Text>
-                <Text>{selectedPokemon.descriptionData.flavorText}</Text>
+                <Text  style={styles.text} >{selectedPokemon.descriptionData.flavorText}</Text>
                 <View style={styles.container}>
                     <View style={styles.card}>
                         <View style={styles.row}>
@@ -65,9 +65,12 @@ export default function DetailsComponent({ selectedPokemon }) {
 
 const styles = StyleSheet.create({
     bigContainer: {
-        padding: 10
+        padding: 10,
+        alignItems: 'center',
+        justifyContent: 'center',
     },
     title: {
+       
         fontSize: 20,
         fontWeight: '800'
     },
@@ -75,6 +78,12 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
 
+    },
+    text: {
+        width: '100%',
+        textAlign: 'center', 
+        fontSize: 16,
+        marginBottom: 10,
     },
     card: {
         flexDirection: 'column',
@@ -90,7 +99,7 @@ const styles = StyleSheet.create({
         shadowOffset: { width: 0, height: 2 },
         shadowOpacity: 0.3,
         shadowRadius: 4,
-        padding: 20,
+     
         marginBottom: 10,
         marginTop: 10
 
@@ -118,5 +127,6 @@ const styles = StyleSheet.create({
     column: {
         flex: 1,
         marginRight: 10,
-    },
+        width: 100
+    }
 })
