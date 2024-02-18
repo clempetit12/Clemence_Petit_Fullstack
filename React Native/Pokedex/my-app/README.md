@@ -17,7 +17,7 @@ Application mobile pour gérer ses pokemons. Les différentes fonctionnalités s
 
 ![Menu](https://github.com/clempetit12/Clemence_Petit_Fullstack/assets/143411906/3ab88310-5b16-4b63-a39a-f5e555579085)
 ![Pokemon](https://github.com/clempetit12/Clemence_Petit_Fullstack/assets/143411906/f199ac87-6e75-4519-9fb8-f9ecf539f825)
-![Détail](https://github.com/clempetit12/Clemence_Petit_Fullstack/assets/143411906/7ed58bb6-2397-40b5-a015-4bb48c53ef10)
+![Detail](https://github.com/clempetit12/Clemence_Petit_Fullstack/assets/143411906/8ec64249-7026-44b9-a70f-419e2d6318fb)
 ![Détail2](https://github.com/clempetit12/Clemence_Petit_Fullstack/assets/143411906/a9ee2a65-b3ba-4877-9dff-24eaacd4ee66)
 
 ## Contact
